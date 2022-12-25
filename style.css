@@ -1,0 +1,248 @@
+body {
+    background-color: #013243;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+.heading {
+    position: relative;
+    color: #32F5C8;
+    margin-left: 8%;
+    margin-top: -4%;
+    font-size: 400%;
+}
+
+.heading-content {
+    color: #78949F;
+    position: relative;
+    margin-left: 6.9%;
+    font-size: 150%;
+    margin-top: -3%;
+    font-weight: bolder;
+    width: 38%;
+    
+
+}
+
+.follow {
+    position: absolute;
+    color: #78949F;
+}
+
+button {
+    position: relative;
+    background-color: #32F5C8;
+    color: #013243;
+    margin-left: 6.9%;
+    margin-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 120%;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #78949F;
+    color: #32F5C8;
+    transition: 0.5s ease-in-out;
+}
+.logo {
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.timage {
+    margin-top: 3%;
+    margin-left: 6.9%;
+    position: relative;
+}
+
+.follow{
+    
+    margin-top: -2.5%;
+    margin-left: 8.5%;
+    width: 43%;
+    font-weight: bolder;
+    font-size: 120%;
+    position: relative;
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .logo {
+        margin-top: 8%;
+        position: relative;
+
+    }
+    .heading {
+        font-size: 180%;
+        margin-top: 20%;
+        position: relative;
+    }
+    .heading-content {
+        width: 70%;
+        position: relative;
+    }
+    .timage {
+        margin-top: 18%;
+        position: relative;
+    }
+    .follow {
+        width: 80%;
+        margin-top: -7%;
+        position: relative;
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .follow {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    
+    .timage {
+        margin-top: 2%;
+        position: relative;
+    }
+    .follow {
+        position: relative;
+        width: 50%;
+        
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .heading {
+        font-size: 360%;
+        position: relative;
+    }
+
+    .timage {
+        margin-top: 6%;
+        position: relative;
+    }
+
+    .follow {
+        width: 60%;
+        margin-top: -3.5%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .heading {
+        font-size: 330%;
+        position: relative;
+    }
+    .heading-content {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .heading {
+        font-size: 300%;
+        position: relative;
+    }
+    .heading-content {
+        width: 50%;
+        position: relative;
+    }
+    .follow {
+        margin-top: -4.5%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:816px) {
+    .heading {
+        font-size: 280%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .heading {
+        font-size: 260%;
+        position: relative;
+    }
+    .heading-content {
+        margin-top: 5%;
+        position: relative;
+    }
+
+    .heading-content {
+        width: 70%;
+        position: relative;
+    }
+    button {
+        margin-top: 5%;
+        position: relative;
+    }
+    .timage {
+        margin-top: 10%;
+        position: relative;
+    }
+
+    .follow {
+        width: 70%;
+        margin-top: -5.5%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .heading {
+        font-size: 240%;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .logo {
+        margin-top: 5%;
+        position: relative;
+    }
+    .heading {
+        font-size: 210%;
+        margin-top: 3%;
+        position: relative;
+    }
+
+    .timage {
+        margin-top: 20%;
+        position: relative;
+    }
+    .follow {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 180%;
+    }
+    .heading-content {
+        margin-top: 10%;
+    }
+    button {
+        margin-top: 10%;
+    }
+    .follow {
+        margin-top: -6%;
+        
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .follow{
+        width: 80%;
+    }
+}
